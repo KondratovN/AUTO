@@ -51,6 +51,7 @@ $(document).ready(function(){
     $('.rem').click(function(event) {
         $('.header-bottom').removeClass('active');
         $('.overlay').removeClass('active');
+        $('body').removeClass('lock');
     });
 
     $('.overlay').click(function(event) {
